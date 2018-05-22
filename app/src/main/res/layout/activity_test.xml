@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tripl3dev.multiimageview.MultibleImageView
+        android:id="@+id/imagesView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mi_imagesType="circleImage"
+        app:mi_imageErrorDrawable="@drawable/img_error"
+        app:mi_imagePlaceHolder="@drawable/img_placeholder"
+        app:mi_spaceBetweenImages="8dp"
+        app:mi_textColor="@android:color/holo_red_light"
+        app:mi_finalImageOverlayColor="#f90b0000"
+        app:mi_circleImageBorderColor="#000"
+        app:mi_sliderTransitionAnimation="alpha"
+        app:mi_sliderOrientationJustPortrait ="false"
+        />
+    <!--app:mi_customSliderActivityView="@layout/custom_slider_activity"-->
+    <!--app:mi_sliderImagesListSelectedView="@layout/selected_image_view"-->
+    <!--app:mi_sliderImagesListUnSelectedView="@layout/unselected_image_view"-->
+    <!--app:mi_customSlideViewWithDesc="@layout/custom_slider_image_with_description"-->
+
+
+</android.support.constraint.ConstraintLayout>

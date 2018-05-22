@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <com.tripl3dev.slider.sliderBottomList.TouchImageView
+        android:id="@+id/imageSlideView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:background="#836f6f"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/imageDescView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        tools:text="Test Description"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|bottom"
+        android:padding="4dp"
+        tools:textSize="14sp"
+        />
+
+</LinearLayout>

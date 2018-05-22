@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MultiImageView</string>
+
+    <string-array name="imgss">
+        <item>https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/be/d5/3e/bed53eb0-ae0b-5bbe-b47c-6adb15a415bc/mzl.cxeeolec.png/246x0w.jpg</item>
+        <item>http://www.cutsncamera.in/wp-content/uploads/2015/02/animation_services_gurgaon_noida_delhi.jpg</item>
+        <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVISTAcEPOnFaAw13O_Gdf47p6LcwwaxYQuZ8Teyefp_hobZL7</item>
+        <item>https://static.arageek.com/wp-content/uploads/Animation-2.jpg</item>
+        <item>https://s3-eu-west-1.amazonaws.com/rex-uploads/fb-share.jpg</item>
+        <item>https://pics.filmaffinity.com/Early_Man-261150936-large.jpg</item>
+        <item>https://vignette.wikia.nocookie.net/disney/images/3/37/Zootopia_TV_Spot_Clawhauser.png/revision/latest?cb=20160111152358</item>
+        <item>https://cdn.ndtv.com/tech/images/gadgets/pikachu_hi_pokemon.jpg</item>
+        <item>https://vignette.wikia.nocookie.net/agus-pokemon/images/5/56/Charmander.png/revision/latest?cb=20150531123106</item>
+        <item>https://cdn3.vox-cdn.com/thumbor/2gT5Ld6E7Ua-x6xZ1dNd3RWyWeI=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6765551/pokemon%20scraggy.jpg</item>
+        <item>https://zuzeu.eus/wp-content/uploads/season17_ep28_ss01.jpg</item>
+    </string-array>
+
+</resources>
+

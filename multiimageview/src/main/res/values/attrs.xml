@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="multibleImageView">
+        <attr name="mi_imagesType" format="enum">
+            <enum name="circleImage" value="1" />
+            <enum name="normalImage" value="0" />
+        </attr>
+        <attr name="mi_finalImageTextSize" format="dimension" />
+        <attr name="mi_finalImageOverlayColor" format="color" />
+        <attr name="mi_textColor" format="color" />
+        <attr name="mi_spaceBetweenImages" format="dimension" />
+        <attr name="mi_imagePlaceHolder" format="reference" />
+        <attr name="mi_imageErrorDrawable" format="reference" />
+        <attr name="mi_circleImageBorderColor" format="color" />
+        <attr name="mi_circleImageBorderWidth" format="dimension" />
+        <attr name="mi_customSlideViewWithDesc" format="reference" />
+        <attr name="mi_customSliderActivityView" format="reference" />
+        <attr name="mi_imageWidth" format="dimension"/>
+        <attr name="mi_maxImagesNum" format="integer"/>
+        <attr name="mi_sliderImagesListSelectedView" format="reference"/>
+        <attr name="mi_sliderImagesListUnSelectedView" format="reference"/>
+
+        <attr name="mi_sliderTransitionAnimation" format="enum">
+                <enum name="alpha" value="0"/>
+                <enum name="cube" value="1"/>
+                <enum name="rotate" value="2"/>
+        </attr>
+
+        <attr name="mi_sliderOrientationJustPortrait" format="boolean"/>
+
+        <attr name="mi_imagesListOrientation" format="enum">
+            <enum name="HORIZONTAL" value="0"/>
+            <enum name="VERTICAL" value="1"/>
+        </attr>
+
+        <attr name="mi_scaleType" format="enum">
+            <enum name="MATRIX" value="0" />
+            <enum name="FIT_XY" value="1" />
+            <enum name="FIT_START" value="2" />
+            <enum name="FIT_CENTER" value="3" />
+            <enum name="FIT_END" value="4" />
+            <enum name="CENTER" value="5" />
+            <enum name="CENTER_CROP" value="6" />
+            <enum name="CENTER_INSIDE" value="7" />
+        </attr>
+
+    </declare-styleable>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+</resources>

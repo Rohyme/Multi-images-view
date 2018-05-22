@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tripl3dev.multiimageview">
+
+    <application>
+
+        <activity android:name="com.tripl3dev.slider.sliderActivity.ImagesSliderActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            />
+    </application>
+
+</manifest>
