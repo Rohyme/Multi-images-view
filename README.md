@@ -59,7 +59,7 @@ Multi images view is a library to make a good looking group of images ( album ) 
 
 ##### Second Slider view
 
-<img src="https://raw.githubusercontent.com/Tripl3Dev/Multi-images-view/master/SliderView.jpg" width=“400” height=“450”>
+<img src="https://raw.githubusercontent.com/Tripl3Dev/Multi-images-view/master/Screenshot2.jpg" width=“400” height=“450”>
 
 - Features Attributes
  
