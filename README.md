@@ -28,9 +28,14 @@ Multi images view is a library to make a good looking group of images ( album ) 
 # Usage
 #### In your Activity 
  1-  Get your view instance 
-        ```var imagesView =  findViewById<MultibleImageView>(R.id.multibleImage)```
- 2- Intialize the view config 
- ```imagesView.intialize() ```
+ ```kotlin 
+	var imagesView =  findViewById<MultibleImageView>(R.id.multibleImage)
+```
+2- Intialize the view config 
+
+```kotlin 
+ imagesView.intialize()
+ ```
  3- Set images list , you can set two types :
  - List of strings . 
  - List of any object implements ImageModelI .
