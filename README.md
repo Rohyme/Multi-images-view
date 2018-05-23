@@ -35,8 +35,8 @@ Multi images view is a library to make a good looking group of images ( album ) 
  - List of strings . 
  - List of any object implements ImageModelI .
 
-#### In Xml 
-##### First Multi Images main view 
+ #### In Xml 
+ ##### First Multi Images main view 
 <img src="https://raw.githubusercontent.com/Tripl3Dev/Multi-images-view/master/screenshot1.png" width="400">
 
 | Attribute | Usage | Types |
@@ -55,6 +55,7 @@ Multi images view is a library to make a good looking group of images ( album ) 
 ##### Second Slider view
 
 <img src="https://raw.githubusercontent.com/Tripl3Dev/Multi-images-view/master/SliderView.jpg" width=“400” height=“450”>
+
 - Features Attributes
  
 | Attribute | Usage | Types |
